@@ -1,0 +1,20 @@
+index.jsで書く
+ReactDOM.render(<App />,が
+App.jsのJSXをHTMLに変換してくれる。
+
+
+(<App />,の後に続くdocument.getElementByld('id名（EX)root）'));
+と書いて
+
+index.html
+でid名の場所を指定してあげると、変換されたJSXの内容がHTMLに変換された状態で、ブラウザに表示してくれるようになる。
+
+App.jsは表示させたい内容をJSXで記述し、
+index.jsでJSXをHTMLに変換し、
+index.htmlでHTMLとして表示する。
+
+JSXの塊をrootと名付けてその名前をHTMLファイルで使う
+その名前を使えば、
+どこにでも同じ塊を錬成させることができる
+この塊をコンポーネントというらしい
+パーツやね
