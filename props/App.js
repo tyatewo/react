@@ -54,3 +54,13 @@ class App extends React.Component {
 }
 
 export default App;
+
+
+
+// export default Language;
+// 他のところで使えるようにするための命令
+// みんなに見せるよ！っていう感じ
+
+// props名=値
+// name= 'javascript'
+// image= 'https://・・・'
